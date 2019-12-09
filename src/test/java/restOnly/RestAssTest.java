@@ -10,7 +10,9 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.Is.is;
 
 public class RestAssTest {
-
+public void doNothing(){
+    System.out.println("am not doing anything");
+}
 
     @Test
         public void runTest(){
